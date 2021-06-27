@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField]
-    private float offsetX = -6f;
+    private float offsetX = -7f;
 
     private Vector3 tempPos;
 
@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
 		FindPlayerRef();
 	}
 
-	private void Update()
+	private void LateUpdate()
 	{
 		FollowPlayer();
 	}
