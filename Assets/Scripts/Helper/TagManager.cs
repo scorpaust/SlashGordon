@@ -27,5 +27,9 @@
 
     public static string TREE2_TAG = "Tree2";
 
+    // Inputs
+
+    public static string JUMP_BUTTON = "Jump";
+
 
 }
