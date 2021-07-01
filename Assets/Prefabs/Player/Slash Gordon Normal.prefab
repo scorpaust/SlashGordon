@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3574507898524163913}
   - component: {fileID: 3574507898524163914}
   - component: {fileID: 3845863505414079351}
+  - component: {fileID: 3815874041808134425}
   m_Layer: 0
   m_Name: Slash Gordon Normal
   m_TagString: Player
@@ -120,8 +121,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.020755544, y: -0.47529137}
-  m_Size: {x: 0.1784595, y: 0.23791015}
+  m_Offset: {x: -0.039202213, y: -0.46672678}
+  m_Size: {x: 0.19954205, y: 0.23775291}
   m_Direction: 0
 --- !u!61 &3574507898524163913
 BoxCollider2D:
@@ -187,6 +188,18 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &3815874041808134425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3574507898524160181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9f8d9cb06e6784ca558970305e3c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5266573431762119652
 GameObject:
   m_ObjectHideFlags: 0

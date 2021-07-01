@@ -1519,26 +1519,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slash Gordon Normal
       objectReference: {fileID: 0}
-    - target: {fileID: 3574507898524163912, guid: e9d34358386cb0a4faa581a1310cb0a8,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 0.19954205
-      objectReference: {fileID: 0}
-    - target: {fileID: 3574507898524163912, guid: e9d34358386cb0a4faa581a1310cb0a8,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 0.23775291
-      objectReference: {fileID: 0}
-    - target: {fileID: 3574507898524163912, guid: e9d34358386cb0a4faa581a1310cb0a8,
-        type: 3}
-      propertyPath: m_Offset.x
-      value: -0.039202213
-      objectReference: {fileID: 0}
-    - target: {fileID: 3574507898524163912, guid: e9d34358386cb0a4faa581a1310cb0a8,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: -0.46672678
-      objectReference: {fileID: 0}
     - target: {fileID: 3574507898524163915, guid: e9d34358386cb0a4faa581a1310cb0a8,
         type: 3}
       propertyPath: m_RootOrder
