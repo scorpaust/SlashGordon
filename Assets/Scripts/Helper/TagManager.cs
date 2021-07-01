@@ -15,7 +15,7 @@
 
     public static string DEATH_ANIMATION_PARAM = "Death";
 
-    public static string ATTACK_TRIGGER_PARAM = "AttackTrigger";
+    public static string ATTACK_TRIGGER_PARAM = "Attack Trigger";
 
     // Tag Names
 
@@ -26,6 +26,10 @@
     public static string TREE1_TAG = "Tree1";
 
     public static string TREE2_TAG = "Tree2";
+
+    public static string ENEMY_TAG = "Enemy";
+
+    public static string OBSTACLE_TAG = "Obstacle";
 
     // Inputs
 
