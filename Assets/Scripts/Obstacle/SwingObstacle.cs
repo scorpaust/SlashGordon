@@ -10,17 +10,43 @@ public class SwingObstacle : MonoBehaviour
 	[SerializeField]
 	private float minZRotation = -0.6f, maxZRotation = 0.6f;
 
+	private Rigidbody2D myBody;
+
+	private bool rotateLeft;
+
 	private float zAngle;
 
-	private void Start()
+	private void Awake()
 	{
-		if (Random.Range(0, 2) > 0)
+
+		myBody = GetComponent<Rigidbody2D>();
+
+		if (Random.Range(0,2) > 0) 
 		{
-			rotateSpeed *= -1;
+			rotateLeft = true;
 		}
 	}
 
 	private void Update()
+	{
+		HandleRotationWithRigidbody();
+	}
+
+	private void HandleRotationWithRigidbody()
+	{
+		if (transform.rotation.z > maxZRotation)
+			rotateLeft = true;
+
+		if (transform.rotation.z < minZRotation)
+			rotateLeft = false;
+
+		if (rotateLeft)
+			myBody.angularVelocity = -rotateSpeed;
+		else
+			myBody.angularVelocity = rotateSpeed;
+	}
+
+	private void HandleRotationWithTransform()
 	{
 		zAngle += Time.deltaTime * rotateSpeed;
 
