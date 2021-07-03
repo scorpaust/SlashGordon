@@ -11,6 +11,9 @@ public class ObstacleSpawner : MonoBehaviour
     private GameObject[] rotatingObstaclesPrefabs;
 
     [SerializeField]
+    private GameObject healthPrefab;
+
+    [SerializeField]
     private float spikeYPos = -3.5f;
 
     [SerializeField]
@@ -21,6 +24,9 @@ public class ObstacleSpawner : MonoBehaviour
 
     [SerializeField]
     private float swingObstacleMinY = 0.7f, swingObstacleMaxY = 3f;
+
+    [SerializeField]
+    private float minHealthY = -3.3f, maxHealthY = 1f;
 
     [SerializeField]
     private float minSpawnWaitTime = 2f, maxSpawnWaitTime = 3.5f;
@@ -34,6 +40,8 @@ public class ObstacleSpawner : MonoBehaviour
     private Camera mainCam;
 
     private Vector3 obstacleSpawnPos = Vector2.zero;
+
+    private Vector3 healthSpawnPos = Vector2.zero;
 
     private GameObject newObstacle;
 
@@ -54,6 +62,8 @@ public class ObstacleSpawner : MonoBehaviour
             spawnWaitTime = Time.time + Random.Range(minSpawnWaitTime, maxSpawnWaitTime);
 
             SpawnObstacle();
+
+            SpawnHealth();
 		}
 	}
 
@@ -84,5 +94,17 @@ public class ObstacleSpawner : MonoBehaviour
         }
 
         newObstacle.transform.position = obstacleSpawnPos;
+	}
+
+    private void SpawnHealth()
+	{
+        if (Random.Range(0,10) > 6)
+		{
+            healthSpawnPos.x = mainCam.transform.position.x + 30f;
+
+            healthSpawnPos.y = Random.Range(minHealthY, maxHealthY);
+
+            Instantiate(healthPrefab, healthSpawnPos, Quaternion.identity);
+		}
 	}
 }

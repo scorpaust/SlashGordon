@@ -408,7 +408,7 @@ GameObject:
   - component: {fileID: 3341453594370509378}
   m_Layer: 0
   m_Name: Blade
-  m_TagString: Obstacle
+  m_TagString: Blade
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -11,7 +11,7 @@ public class Collector : MonoBehaviour
 			collision.gameObject.SetActive(false);
 		}
 
-		if (collision.CompareTag(TagManager.OBSTACLE_TAG) || collision.CompareTag(TagManager.ENEMY_TAG))
+		if (collision.CompareTag(TagManager.OBSTACLE_TAG) || collision.CompareTag(TagManager.ENEMY_TAG) || collision.CompareTag(TagManager.HEALTH_TAG))
 		{
 			collision.gameObject.SetActive(false);
 		}

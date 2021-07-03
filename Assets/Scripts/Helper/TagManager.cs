@@ -31,6 +31,8 @@
 
     public static string OBSTACLE_TAG = "Obstacle";
 
+    public static string HEALTH_TAG = "Health";
+
     // Inputs
 
     public static string JUMP_BUTTON = "Jump";

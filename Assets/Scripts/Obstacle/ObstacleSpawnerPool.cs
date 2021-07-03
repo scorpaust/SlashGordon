@@ -11,6 +11,9 @@ public class ObstacleSpawnerPool : MonoBehaviour
     private GameObject rotatingObstaclePrefab_1, rotatingObstaclePrefab_2, rotatingObstaclePrefab_3;
 
     [SerializeField]
+    private GameObject healthPrefab;
+
+    [SerializeField]
     private float spikeYPos = -3.5f;
 
     [SerializeField]
@@ -21,6 +24,9 @@ public class ObstacleSpawnerPool : MonoBehaviour
 
     [SerializeField]
     private float swingObstacleMinY = 0.7f, swingObstacleMaxY = 3f;
+
+    [SerializeField]
+    private float minHealthY = -3.3f, maxHealthY = 1f;
 
     [SerializeField]
     private float minSpawnWaitTime = 2f, maxSpawnWaitTime = 3.5f;
@@ -38,6 +44,8 @@ public class ObstacleSpawnerPool : MonoBehaviour
 
     private Vector3 obstacleSpawnPos = Vector2.zero;
 
+    private Vector3 healthSpawnPos = Vector2.zero;
+
     private GameObject newObstacle;
 
     private List<GameObject> spikePool = new List<GameObject>();
@@ -47,6 +55,8 @@ public class ObstacleSpawnerPool : MonoBehaviour
     private List<GameObject> rotatingObstaclePool = new List<GameObject>();
 
     private List<GameObject> wolfPool = new List<GameObject>();
+
+    private List<GameObject> healthPool = new List<GameObject>();
 
     private void Awake()
     {
@@ -62,7 +72,7 @@ public class ObstacleSpawnerPool : MonoBehaviour
 
 	private void InitializeObstacles()
 	{
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < 7; i++)
 		{
             SpawnInitialObstacles(i);
 		}
@@ -140,6 +150,18 @@ public class ObstacleSpawnerPool : MonoBehaviour
                     newObstacle.transform.SetParent(transform);
 
                     rotatingObstaclePool.Add(newObstacle);
+
+                    newObstacle.SetActive(false);
+                }
+                break;
+            case 6:
+                for (int i = 0; i < initialObstaclesToSpawn; i++)
+                {
+                    newObstacle = Instantiate(healthPrefab);
+
+                    newObstacle.transform.SetParent(transform);
+
+                    healthPool.Add(newObstacle);
 
                     newObstacle.SetActive(false);
                 }
@@ -227,6 +249,28 @@ public class ObstacleSpawnerPool : MonoBehaviour
         newObstacle.transform.position = obstacleSpawnPos;
     }
 
+    private void SpawnHealthInGame()
+	{
+        if (Random.Range(0, 10) > 6)
+        {
+            for (int i = 0; i < healthPool.Count; i++)
+			{
+                if (!healthPool[i].activeInHierarchy)
+				{
+                    healthSpawnPos.x = mainCam.transform.position.x + 30f;
+
+                    healthSpawnPos.y = Random.Range(minHealthY, maxHealthY);
+
+                    healthPool[i].transform.position = healthSpawnPos;
+
+                    healthPool[i].SetActive(true);
+
+                    break;
+                }
+			}
+        }
+    }
+
     private void HandleObstacleSpawning()
 	{
         if (Time.time > spawnWaitTime)
@@ -234,6 +278,8 @@ public class ObstacleSpawnerPool : MonoBehaviour
             spawnWaitTime = Time.time + Random.Range(minSpawnWaitTime, maxSpawnWaitTime);
 
             SpawnObstacleInGame();
+
+            SpawnHealthInGame();
         }
     }
 }

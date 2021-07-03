@@ -224,7 +224,7 @@ Transform:
   m_GameObject: {fileID: 54621705}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -60, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 4
@@ -465,12 +465,16 @@ MonoBehaviour:
   - {fileID: 7890689139263699075, guid: 2c9b68457f830ff4fbd5c8269bb1abc5, type: 3}
   - {fileID: 212796673285254492, guid: 73879900e215ef3459288575142afb5b, type: 3}
   - {fileID: 2835372172980124110, guid: 3d73f77247e65c14dab6b8ff94bfb714, type: 3}
+  healthPrefab: {fileID: 2233712999813093217, guid: 7d73eda982cab4e4bacb3ccb229b48fc,
+    type: 3}
   spikeYPos: -3.5
   wolfYPos: -3.1
   rotatingObstacleMinY: -3.4
   rotatingObstacleMaxY: -0.6
   swingObstacleMinY: 0.7
   swingObstacleMaxY: 3
+  minHealthY: -3.3
+  maxHealthY: 1
   minSpawnWaitTime: 2
   maxSpawnWaitTime: 3.5
 --- !u!4 &631625981
@@ -511,12 +515,16 @@ MonoBehaviour:
     type: 3}
   rotatingObstaclePrefab_3: {fileID: 2835372172980124110, guid: 3d73f77247e65c14dab6b8ff94bfb714,
     type: 3}
+  healthPrefab: {fileID: 2233712999813093217, guid: 7d73eda982cab4e4bacb3ccb229b48fc,
+    type: 3}
   spikeYPos: -3.5
   wolfYPos: -3.1
   rotatingObstacleMinY: -3.3
   rotatingObstacleMaxY: -0.6
   swingObstacleMinY: 0.7
   swingObstacleMaxY: 3
+  minHealthY: -3.3
+  maxHealthY: 1
   minSpawnWaitTime: 2
   maxSpawnWaitTime: 3.5
   initialObstaclesToSpawn: 10
