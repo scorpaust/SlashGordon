@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 595215199}
   - component: {fileID: 595215198}
   - component: {fileID: 595215200}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Damage Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109,7 +109,8 @@ GameObject:
   - component: {fileID: 3574507898524163914}
   - component: {fileID: 3845863505414079351}
   - component: {fileID: 3815874041808134425}
-  m_Layer: 0
+  - component: {fileID: 3803808150104575124}
+  m_Layer: 12
   m_Name: Slash Gordon Normal
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -169,7 +170,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 613087043
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 4944230376442633554, guid: de3e6b7737b102346ac577b8d24662e2,
     type: 3}
@@ -296,6 +297,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageCollider: {fileID: 595215196}
+--- !u!114 &3803808150104575124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3574507898524160181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e77670f09dd44ac40b77142c0b8d7d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &5266573431762119652
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ TagManager:
   - Obstacle
   - Health
   - Blade
+  - GameplayController
   layers:
   - Default
   - TransparentFX

@@ -33,6 +33,14 @@
 
     public static string HEALTH_TAG = "Health";
 
+    public static string GAMEPLAY_CONTROLLER_TAG = "GameplayController";
+
+    // Scene Names
+
+    public static string GAMEPLAY_SCENE_NAME = "Gameplay";
+
+    public static string MAIN_MENU_SCENE_NAME = "MainMenu";
+
     // Inputs
 
     public static string JUMP_BUTTON = "Jump";
