@@ -1,7 +1,142 @@
 fileFormatVersion: 2
 guid: 4ee718f43796a39409a48610aadff39e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1831808456073563995
+    second: UP DOCKER_2
+  - first:
+      213: 4642428778435580599
+    second: UP DOCKER_3
+  - first:
+      213: 7630794394567769691
+    second: UP DOCKER_4
+  - first:
+      213: 5631431279660888770
+    second: Healthbar BG
+  - first:
+      213: -2455859991161837565
+    second: UP DOCKER_7
+  - first:
+      213: 54626369420779810
+    second: Health UI
+  - first:
+      213: 4985208816962212179
+    second: UP DOCKER_9
+  - first:
+      213: 6054495882945534527
+    second: UP DOCKER_10
+  - first:
+      213: -7449462348245849508
+    second: UP DOCKER_12
+  - first:
+      213: -8662458679336458730
+    second: UP DOCKER_13
+  - first:
+      213: -3156736448489085375
+    second: UP DOCKER_14
+  - first:
+      213: 3260203254608265953
+    second: UP DOCKER_15
+  - first:
+      213: 7589527276798403728
+    second: UP DOCKER_16
+  - first:
+      213: -5377472961443007139
+    second: UP DOCKER_17
+  - first:
+      213: -4152300906070386202
+    second: UP DOCKER_18
+  - first:
+      213: 7004698870708009687
+    second: UP DOCKER_19
+  - first:
+      213: -1404773168097342170
+    second: UP DOCKER_20
+  - first:
+      213: 867843958426354321
+    second: UP DOCKER_21
+  - first:
+      213: 3418041197443417532
+    second: UP DOCKER_22
+  - first:
+      213: 1884084793375528214
+    second: UP DOCKER_23
+  - first:
+      213: 1171418027683019606
+    second: UP DOCKER_24
+  - first:
+      213: 6457303706548797392
+    second: UP DOCKER_25
+  - first:
+      213: -3331581880852319214
+    second: UP DOCKER_26
+  - first:
+      213: -2382586932961633153
+    second: UP DOCKER_27
+  - first:
+      213: 4802937938714992058
+    second: UP DOCKER_28
+  - first:
+      213: -86402161115880016
+    second: UP DOCKER_29
+  - first:
+      213: -4031332553428731936
+    second: UP DOCKER_30
+  - first:
+      213: 2265272354078641022
+    second: UP DOCKER_31
+  - first:
+      213: -3261434923497908923
+    second: UP DOCKER_32
+  - first:
+      213: -1045535524855947438
+    second: UP DOCKER_33
+  - first:
+      213: -1383078663605034025
+    second: UP DOCKER_34
+  - first:
+      213: 7252349278904285530
+    second: UP DOCKER_35
+  - first:
+      213: 8399416701629631437
+    second: UP DOCKER_36
+  - first:
+      213: 5822298692914855833
+    second: UP DOCKER_37
+  - first:
+      213: 4551268107479129129
+    second: UP DOCKER_38
+  - first:
+      213: 3592492078840034469
+    second: UP DOCKER_39
+  - first:
+      213: 875230804648357961
+    second: UP DOCKER_40
+  - first:
+      213: -1922479669468874516
+    second: UP DOCKER_41
+  - first:
+      213: -5703993536477574816
+    second: UP DOCKER_42
+  - first:
+      213: -8860664428860697042
+    second: UP DOCKER_43
+  - first:
+      213: -3327870486982666801
+    second: UP DOCKER_44
+  - first:
+      213: -7801086352179422892
+    second: UP DOCKER_45
+  - first:
+      213: 8397912472647657117
+    second: UP DOCKER_46
+  - first:
+      213: 1072505550819212323
+    second: UP DOCKER_47
+  - first:
+      213: 1513364047286587146
+    second: UP DOCKER_48
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +175,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +206,990 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UP DOCKER_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 648
+        width: 55
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f42d0e514eb6910800000000000000
+      internalID: 1831808456073563995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_3
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 638
+        width: 87
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b214b990683d6040800000000000000
+      internalID: 4642428778435580599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_4
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 634
+        width: 79
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ef04a721706e960800000000000000
+      internalID: 7630794394567769691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthbar BG
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 489
+        width: 683
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2f53989ecd62e40800000000000000
+      internalID: 5631431279660888770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_7
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 513
+        width: 600
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30864b889580bedd0800000000000000
+      internalID: -2455859991161837565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Health UI
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 554
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221e1b0c46212c000800000000000000
+      internalID: 54626369420779810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_9
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 505
+        width: 57
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3519d2a91050f2540800000000000000
+      internalID: 4985208816962212179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_10
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 508
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a980d6de3e50450800000000000000
+      internalID: 6054495882945534527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_12
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 496
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5aa82596713e9890800000000000000
+      internalID: -7449462348245849508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 1979
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616a6a01ab3c8c780800000000000000
+      internalID: -8662458679336458730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 275
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a74adce40134d0800000000000000
+      internalID: -3156736448489085375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 274
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e28f7636919e3d20800000000000000
+      internalID: 3260203254608265953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_16
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 277
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094e4b2e8da635960800000000000000
+      internalID: 7589527276798403728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_17
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 275
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55fbe725d06f55b0800000000000000
+      internalID: -5377472961443007139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_18
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 273
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9542563501066c0800000000000000
+      internalID: -4152300906070386202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_19
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 276
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da712ba280b53160800000000000000
+      internalID: 7004698870708009687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_20
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 263
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dce851f3e318ce0800000000000000
+      internalID: -1404773168097342170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_21
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 276
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192c87e6b733b0c00800000000000000
+      internalID: 867843958426354321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_22
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 271
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb504490c525f6f20800000000000000
+      internalID: 3418041197443417532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_23
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 275
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6151dd3232d952a10800000000000000
+      internalID: 1884084793375528214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_24
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 273
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bf88f5d76b14010800000000000000
+      internalID: 1171418027683019606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_25
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 279
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df77a34283fc9950800000000000000
+      internalID: 6457303706548797392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_26
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 253
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2147bab4ee7d3c1d0800000000000000
+      internalID: -3331581880852319214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_27
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 268
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c9556dec95feed0800000000000000
+      internalID: -2382586932961633153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_28
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 266
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd9a53bb9677a240800000000000000
+      internalID: 4802937938714992058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_29
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 266
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5acd631b90dcef0800000000000000
+      internalID: -86402161115880016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_30
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 268
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7796dc664dd08c0800000000000000
+      internalID: -4031332553428731936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_31
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 269
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bce50443ddf6f10800000000000000
+      internalID: 2265272354078641022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_32
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 260
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5459ad6873e0db2d0800000000000000
+      internalID: -3261434923497908923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_33
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 229
+        width: 14
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fd8e8caf28d71f0800000000000000
+      internalID: -1045535524855947438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_34
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 255
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3666788415ecce0800000000000000
+      internalID: -1383078663605034025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_35
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 258
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59762c9e3585a460800000000000000
+      internalID: 7252349278904285530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_36
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 257
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb0e15fcf8b09470800000000000000
+      internalID: 8399416701629631437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_37
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 250
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f396730d5fcc050800000000000000
+      internalID: 5822298692914855833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_38
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 249
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9bd7ea3a592f30800000000000000
+      internalID: 4551268107479129129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_39
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 245
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a43aa903881bd130800000000000000
+      internalID: 3592492078840034469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_40
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 238
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9407b8797c1752c00800000000000000
+      internalID: 875230804648357961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_41
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 216
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8b5652deaf155e0800000000000000
+      internalID: -1922479669468874516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_42
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 250
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0694121891857d0b0800000000000000
+      internalID: -5703993536477574816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_43
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 243
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2691d3d5a8980580800000000000000
+      internalID: -8860664428860697042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_44
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 241
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc554e48c6701d1d0800000000000000
+      internalID: -3327870486982666801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_45
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 224
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459923c6b49fcb390800000000000000
+      internalID: -7801086352179422892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_46
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 32
+        width: 128
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d966cfa56e06b8470800000000000000
+      internalID: 8397912472647657117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cb638bd1e42ee00800000000000000
+      internalID: 1072505550819212323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UP DOCKER_48
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f4d56359c800510800000000000000
+      internalID: 1513364047286587146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
