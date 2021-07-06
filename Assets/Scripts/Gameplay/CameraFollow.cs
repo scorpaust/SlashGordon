@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
 
 	private void Awake()
 	{
-		FindPlayerRef();
+		// FindPlayerRef();
 	}
 
 	private void LateUpdate()

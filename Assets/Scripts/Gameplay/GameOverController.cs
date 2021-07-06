@@ -21,6 +21,8 @@ public class GameOverController : MonoBehaviour
 
     public void GameOverShowPanel()
     {
+        SoundManager.instance.PlayGameOverSound();
+
         // scoreCounter.CanCountScore = false;
         Time.timeScale = 0f;
 
@@ -33,7 +35,16 @@ public class GameOverController : MonoBehaviour
 
     private void DisplayScore()
     {
+        int highScore = DataManager.GetData(TagManager.HIGHSCORE_DATA);
+
+        if (scoreCounter.GetScore() > highScore)
+		{
+            DataManager.SaveData(TagManager.HIGHSCORE_DATA, scoreCounter.GetScore());
+		}
+
         currentScore.text = "Score: " + scoreCounter.GetScore();
+
+        bestScore.text = "Best: " + DataManager.GetData(TagManager.HIGHSCORE_DATA) + "m";
     }
 
     private void CheckToUnlockNewCharacters(int score)

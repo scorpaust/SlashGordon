@@ -9,6 +9,16 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage()
 	{
+
+        if (gameObject.CompareTag(TagManager.ENEMY_TAG))
+		{
+            SoundManager.instance.PlayEnemyDeathSound();
+		}
+        else
+		{
+            SoundManager.instance.PlayDestroyObstacleSound();
+        }
+
         if (destroyEnemy)
             Destroy(gameObject);
         else

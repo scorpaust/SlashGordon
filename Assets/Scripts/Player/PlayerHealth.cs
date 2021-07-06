@@ -11,6 +11,11 @@ public class PlayerHealth : MonoBehaviour
 
     private int health;
 
+	private void Awake()
+	{
+		healthBars = GameObject.FindWithTag(TagManager.HEALTH_BAR_HOLDER_TAG).GetComponent<HealthBarHolder>().healthBars;
+	}
+
 	private void Start()
 	{
 		health = healthBars.Length;
@@ -49,10 +54,13 @@ public class PlayerHealth : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+
 		if (collision.CompareTag(TagManager.HEALTH_TAG))
 		{
 			AddHealth();
 
+			SoundManager.instance.PlayCollectableSound();
+			
 			collision.gameObject.SetActive(false);
 		}
 	}

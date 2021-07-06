@@ -101,6 +101,8 @@ public class PlayerMovement : MonoBehaviour
 				attackTimer = Time.time + attackWaitTime;
 
 				canAttack = true;
+
+				SoundManager.instance.PlayPlayerAttackSound();
 			}
 		}
 	}

@@ -35,6 +35,8 @@
 
     public static string GAMEPLAY_CONTROLLER_TAG = "GameplayController";
 
+    public static string HEALTH_BAR_HOLDER_TAG = "HealthBarHolder";
+
     // Scene Names
 
     public static string GAMEPLAY_SCENE_NAME = "Gameplay";
@@ -44,6 +46,19 @@
     // Inputs
 
     public static string JUMP_BUTTON = "Jump";
+
+    // Game Data
+
+    public static string CHARACTER_DATA = "Character";
+
+    public static string SELECTED_CHARACTER_DATA = "Selected Character";
+
+    public static string HIGHSCORE_DATA = "Highscore";
+
+    public static string MUSIC_DATA = "Music";
+
+    // 0 data not initialized, 1 data initialized
+    public static string DATA_INITIALIZED = "Data Initialized";
 
 
 }
